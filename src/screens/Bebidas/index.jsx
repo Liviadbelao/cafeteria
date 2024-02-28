@@ -7,7 +7,7 @@ export default function Bebidas() {
   const navigation = useNavigation();
   return (
     <View>
-      <Text>Bebidas</Text>
+      <Text  style={styles.titulo}>Bebidas</Text>
       <ListaItem titulo={"BaunilhaLate"} op={()=> navigation.navigate("BaunilhaLate")}/>
       <ListaItem titulo={"Expresso"} op={()=> navigation.navigate("Expresso")}/>
       <ListaItem titulo={"Frozen"} op={()=> navigation.navigate("Frozen")}/>

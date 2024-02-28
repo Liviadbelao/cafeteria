@@ -7,7 +7,7 @@ export default function Doces() {
   const navigation = useNavigation();
   return (
     <View>
-      <Text>Doces</Text>
+      <Text style={styles.titulo}>Doces</Text>
       <ListaItem titulo={"Sonho"} op={()=> navigation.navigate("Sonho")}/>
       <ListaItem titulo={"MorangoNordeste"} op={()=> navigation.navigate("MorangoNordeste")}/>
       <ListaItem titulo={"Brownie"} op={()=> navigation.navigate("Brownie")}/>

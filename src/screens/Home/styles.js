@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
   width:"90%",
   marginLeft:10,
 
+
   },
   texto:{
     fontSize:16,
@@ -19,7 +20,11 @@ const styles = StyleSheet.create({
   image:{
     width: "90%",
     borderRadius: 100,
-    marginLeft: 20,
-  }
+    marginLeft: 25,
+    borderColor: "#A52A2A",
+    borderWidth: 3,
+    
+  },
+ 
 });
 export default styles;

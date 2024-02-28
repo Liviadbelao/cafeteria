@@ -6,7 +6,7 @@ export default function Salgados() {
   const navigation = useNavigation();
   return (
     <View>
-      <Text>Salgados</Text>
+      <Text  style={styles.titulo}>Salgados</Text>
       <ListaItem titulo={"Coxinha"} op={()=> navigation.navigate("Coxinha")}/>
       <ListaItem titulo={"Enroladinho"} op={()=> navigation.navigate("Enroladinho")}/>
       <ListaItem titulo={"Croissant"} op={()=> navigation.navigate("Croissant")}/>
