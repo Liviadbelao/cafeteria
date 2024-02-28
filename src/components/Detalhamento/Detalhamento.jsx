@@ -4,10 +4,12 @@ import styles from './styles';
 export default function Detalhamento({ texto, titulo, imagem}) {
   return (
     <View style={styles.container}>
-      <Text>{titulo}</Text>
+      <Text style={styles.texto}>{titulo}</Text>
      
       <Image style={styles.image} source={imagem}/>
-      <Text>{texto}</Text>
+      <View style={styles.texto2}>
+      <Text >{texto}</Text>
+      </View>
     </View>
   )
 }
