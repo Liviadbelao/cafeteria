@@ -16,6 +16,9 @@ import Croissant from './src/screens/Croissant'
 import Sonho from './src/screens/Sonho'
 import MorangoNordeste from './src/screens/MorangoNordeste'
 import Brownie from './src/screens/Brownie'
+import BaunilhaLate from './src/screens/BaunilhaLate'
+import Frozen from './src/screens/Frozen'
+import Expresso from './src/screens/Expresso'
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -31,8 +34,11 @@ export default function App() {
         <Stack.Screen name="Enroladinho" component={Enroladinho} />
         <Stack.Screen name="Croissant" component={Croissant} />
         <Stack.Screen name="Sonho" component={Sonho} />
-        <Stack.Screen name="MorangoNordeste" component={Enroladinho} />
+        <Stack.Screen name="MorangoNordeste" component={MorangoNordeste} />
         <Stack.Screen name="Brownie" component={Brownie} />
+        <Stack.Screen name="BaunilhaLate" component={BaunilhaLate} />
+        <Stack.Screen name="Frozen" component={Frozen} />
+        <Stack.Screen name="Expresso" component={Expresso} />
        </Stack.Navigator>
        <StatusBar style="auto" />
     </NavigationContainer>

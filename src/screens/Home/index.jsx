@@ -1,6 +1,7 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import { useNavigation } from '@react-navigation/native';
+import Categoria from '../../components/Categoria/Categoria';
 
 export default function Home() {
     const navigation = useNavigation();
@@ -18,22 +19,13 @@ export default function Home() {
             Nosso objetivo é trazer amor e alegria com as nossas guloseimas, espero que vocês se sintam em casa no nosso ambiente.
         </Text>
       </View>
-      <TouchableOpacity
-      onPress={()=> navigation.navigate("SobreMim")}>
-        <Text>Conheça mais sobre mim!</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-      onPress={()=> navigation.navigate("Salgados")}>
-        <Text>Conheça nosso cardápio de salgados!</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-      onPress={()=> navigation.navigate("Doces")}>
-        <Text>Conheça nosso cardápio de Doces!</Text>
-      </TouchableOpacity>
-      <TouchableOpacity
-      onPress={()=> navigation.navigate("Bebidas")}>
-        <Text>Conheça nosso cardápio de Bebidas!</Text>
-      </TouchableOpacity>
+      <Categoria titulo={"Conheça mais sobre mim!"} op={()=> navigation.navigate("SobreMim")}/>
+      <Categoria titulo={"Conheça nosso cardápio de salgados!"} op={()=> navigation.navigate("Salgados")}/>
+      <Categoria titulo={"Conheça nosso cardápio de Doces!"} op={()=> navigation.navigate("Doces")}/>
+      <Categoria titulo={"Conheça nosso cardápio de Bebidas!"} op={()=> navigation.navigate("Bebidas")}/>
+   
+
+      
     </View>
   )
 }

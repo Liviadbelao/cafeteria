@@ -5,6 +5,7 @@ export default function SobreMim() {
   return (
     <View>
       <Text>SobreMim</Text>
+    
     </View>
   )
 }
