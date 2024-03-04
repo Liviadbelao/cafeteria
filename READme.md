@@ -1,7 +1,10 @@
 <div align="center">
 
-![ texto](https://s4.aconvert.com/convert/p3r68-cdx67/al221-cwd2t.jpg)
-![ texto](https://s4.aconvert.com/convert/p3r68-cdx67/a1wrw-7xssh.jpg)
+<img src='./assets/coxinha.jpg'/>
+
+<img src='./assets/sobre mim.png'/>
+<img src='./assets/listaItembebida.png'/>
+<img src='./assets/homeCategoria.png'/>
 </div>
 
 
@@ -16,6 +19,7 @@
 
 
   ## Descrição: Cafeteria da Lívia Belão.
+  ## Tecnologias Utilizadas: Rect Native, Biblioteca Stack, Androi Studium, VS code, JavaScript, CSS.
 
 
 <h1 align="center">

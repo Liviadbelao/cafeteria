@@ -36,12 +36,18 @@ const styles = StyleSheet.create({
     marginLeft: 15,
     borderRadius: 8,
   },
-  texto3: {
-   
-    color: "white",
-    textAlign: "center",
-    fontSize: 16,
+  texto3:{
+    borderColor: "#A52A2A",
+    borderWidth: 2,
+    width: '40%',
+    marginTop: 10,
+    marginLeft: 20,
+  
   },
+    texto:{
+      textAlign: 'center',
+      fontSize: 20,
+    }
     
 })
 export default styles;

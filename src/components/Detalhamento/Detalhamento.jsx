@@ -12,7 +12,10 @@ const  Detalhamento = ({ texto, titulo, imagem}) => {
       <Text >{texto}</Text>
       
       </View>
-     
+      <TouchableOpacity style={styles.texto3}
+      onPress={()=> navigation.navigate("Home")}>
+        <Text style={styles.texto}>Voltar</Text>
+      </TouchableOpacity>
     </View>
   )
 }
