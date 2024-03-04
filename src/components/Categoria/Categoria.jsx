@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import styles from './styles';
-export default function Categoria({ op, titulo }) {
+const Categoria = ({ op, titulo }) => {
     
   return (
     <View style={styles.container}>
@@ -12,3 +12,4 @@ export default function Categoria({ op, titulo }) {
     </View>
   )
 }
+export default Categoria;

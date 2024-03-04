@@ -1,7 +1,7 @@
 import { View, Text, Image } from 'react-native';
 import styles from './styles';
 
-export default function Detalhamento({ texto, titulo, imagem}) {
+const  Detalhamento = ({ texto, titulo, imagem}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.texto}>{titulo}</Text>
@@ -13,3 +13,4 @@ export default function Detalhamento({ texto, titulo, imagem}) {
     </View>
   )
 }
+export default Detalhamento
