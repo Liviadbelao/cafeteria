@@ -25,6 +25,7 @@ export default function Home() {
       <Categoria titulo={"Conheça nosso cardápio de salgados!"} op={()=> navigation.navigate("Salgados")}/>
       <Categoria titulo={"Conheça nosso cardápio de Doces!"} op={()=> navigation.navigate("Doces")}/>
       <Categoria titulo={"Conheça nosso cardápio de Bebidas!"} op={()=> navigation.navigate("Bebidas")}/>
+      <Categoria titulo={"Conheça um pouco sobre mim!"} op={()=> navigation.navigate("SobreMim")}/>
    
       </ScrollView>
       

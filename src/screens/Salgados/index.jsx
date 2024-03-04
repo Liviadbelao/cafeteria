@@ -11,7 +11,10 @@ export default function Salgados() {
       <ListaItem titulo={"Coxinha"} op={()=> navigation.navigate("Coxinha")}/>
       <ListaItem titulo={"Enroladinho"} op={()=> navigation.navigate("Enroladinho")}/>
       <ListaItem titulo={"Croissant"} op={()=> navigation.navigate("Croissant")}/>
-   
+      <TouchableOpacity style={styles.texto3}
+      onPress={()=> navigation.navigate("Home")}>
+        <Text style={styles.texto}>Voltar</Text>
+      </TouchableOpacity>
    
     </View>
   )

@@ -1,7 +1,8 @@
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
-
+import { useNavigation } from '@react-navigation/native';
 const  Detalhamento = ({ texto, titulo, imagem}) => {
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <Text style={styles.texto}>{titulo}</Text>
@@ -9,7 +10,9 @@ const  Detalhamento = ({ texto, titulo, imagem}) => {
       <Image style={styles.image} source={imagem}/>
       <View style={styles.texto2}>
       <Text >{texto}</Text>
+      
       </View>
+     
     </View>
   )
 }

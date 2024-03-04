@@ -12,7 +12,10 @@ export default function Doces() {
       <ListaItem titulo={"Sonho"} op={()=> navigation.navigate("Sonho")}/>
       <ListaItem titulo={"MorangoNordeste"} op={()=> navigation.navigate("MorangoNordeste")}/>
       <ListaItem titulo={"Brownie"} op={()=> navigation.navigate("Brownie")}/>
-   
+      <TouchableOpacity style={styles.texto3}
+      onPress={()=> navigation.navigate("Home")}>
+        <Text style={styles.texto}>Voltar</Text>
+      </TouchableOpacity>
     </View>
   )
 }

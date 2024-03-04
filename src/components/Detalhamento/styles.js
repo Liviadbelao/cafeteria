@@ -27,7 +27,21 @@ const styles = StyleSheet.create({
    borderColor: "#A52A2A",
    borderWidth: 2,
    padding:3,
-   }
+   },
+   container2: {
+    padding: 10,
+    backgroundColor: "#A52A2A",
+    width: "90%",
+    marginTop: 40,
+    marginLeft: 15,
+    borderRadius: 8,
+  },
+  texto3: {
+   
+    color: "white",
+    textAlign: "center",
+    fontSize: 16,
+  },
     
 })
 export default styles;

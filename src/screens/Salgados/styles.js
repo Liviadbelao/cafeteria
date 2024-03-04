@@ -11,7 +11,19 @@ const styles = StyleSheet.create({
   img: {
     width: '110%',
     
-  }
+  },
+  texto3:{
+    borderColor: "#A52A2A",
+    borderWidth: 2,
+    width: '40%',
+    marginTop: 10,
+    marginLeft: 110,
+  
+  },
+    texto:{
+      textAlign: 'center',
+      fontSize: 20,
+    }
 
  
 });

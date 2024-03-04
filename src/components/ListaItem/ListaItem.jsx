@@ -4,12 +4,15 @@ import styles from './styles'
 const ListaItem = ({ op, titulo }) => {
     
   return (
-    <View style={styles.container}>
+    <View >
+      <View style={styles.container}>
   <TouchableOpacity
       onPress={op}>
         
         <Text style={styles.texto}>{titulo}</Text>
       </TouchableOpacity>
+      </View>
+
     </View>
   )
 }

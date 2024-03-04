@@ -5,11 +5,16 @@ const styles = StyleSheet.create({
         backgroundColor: "#A52A2A",
         width: "90%",
         marginTop: 30,
-        marginLeft: 15,
+        marginLeft: 10,
         borderRadius: 8,
         
     },
     texto:{
+        color: "white",
+        textAlign: "center",
+        fontSize: 16,
+    },
+    texto2:{
         color: "white",
         textAlign: "center",
         fontSize: 16,

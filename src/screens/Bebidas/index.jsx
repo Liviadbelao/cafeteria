@@ -12,7 +12,12 @@ export default function Bebidas() {
       <ListaItem titulo={"BaunilhaLate"} op={()=> navigation.navigate("BaunilhaLate")}/>
       <ListaItem titulo={"Expresso"} op={()=> navigation.navigate("Expresso")}/>
       <ListaItem titulo={"Frozen"} op={()=> navigation.navigate("Frozen")}/>
-   
+      <View >
+      <TouchableOpacity style={styles.texto3}
+      onPress={()=> navigation.navigate("Home")}>
+        <Text style={styles.texto} >Voltar</Text>
+      </TouchableOpacity>
+      </View>
     </View>
   )
 }
