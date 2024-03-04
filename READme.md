@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src='./assets/coxinha.jpg'/>
+<img src='./assets/coxinha.png'/>
 
 <img src='./assets/sobre mim.png'/>
 <img src='./assets/listaItembebida.png'/>
