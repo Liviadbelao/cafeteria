@@ -7,6 +7,10 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "#A52A2A",
   },
+  img: {
+    width: '130%',
+    
+  }
 
  
 });

@@ -7,6 +7,7 @@ const ListaItem = ({ op, titulo }) => {
     <View style={styles.container}>
   <TouchableOpacity
       onPress={op}>
+        
         <Text style={styles.texto}>{titulo}</Text>
       </TouchableOpacity>
     </View>
